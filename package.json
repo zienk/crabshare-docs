@@ -1,0 +1,22 @@
+{
+  "name": "crabshare-docs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Kho 31 tài liệu dự án CrabShare",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "test": "node scripts/build.mjs && node --test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "pnpm run format:check && pnpm test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "prettier": "3.9.9"
+  }
+}

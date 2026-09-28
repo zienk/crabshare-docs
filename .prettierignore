@@ -1,0 +1,7 @@
+node_modules/
+dist/
+src/data/
+public/documents/
+Chuan_hoa (2)/
+pnpm-lock.yaml
+.qa/

@@ -1,0 +1,28 @@
+# Dependencies and generated build output
+/node_modules/
+/dist/
+coverage/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+*.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python tooling and temporary verification files
+__pycache__/
+*.py[cod]
+.venv/
+.sites-runtime/
+.qa/
+document-inspection.json
+
+# Original mixed document bundle; the 31 selected sources live in public/documents.
+/Chuan_hoa (2)/
+~$*.docx
